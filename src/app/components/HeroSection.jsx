@@ -22,13 +22,15 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Joey Rocha",
                 1000,
-                "Web Developer",
+                "Software Developer",
                 1000,
-                "Mobile Developer",
+                "Sytstem's Administrator",
                 1000,
-                "UI/UX Designer",
+                "Data Proffesional",
+                1000,
+                "Dragon Boater",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+          Naturally curious problem solver based in San Francisco Bay Area 
           </p>
           <div>
             <Link
@@ -68,7 +69,7 @@ const HeroSection = () => {
               src="/images/hero-image.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
+              width={400}
               height={300}
             />
           </div>

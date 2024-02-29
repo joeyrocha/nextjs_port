@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Javascript</li>
         <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>R</li>
+        <li>HTML/CSS</li>
       </ul>
     ),
   },
@@ -23,8 +23,10 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>NodeJS</li>
+        <li>React</li>
+        <li>Flask</li>
+        <li>Django</li>
       </ul>
     ),
   },
@@ -33,8 +35,10 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>W3Schools Fullstack developer</li>
+        <li>Google Professional Project Manager</li>
+        <li>SalesForce Administrator</li>
+
       </ul>
     ),
   },
@@ -53,16 +57,11 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/profile.jpg" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          Joey Rocha is a seasoned technology leader adept at driving innovative solutions through his expertise in programming languages, systems analysis, data visualization, and SQL. Proficient in a wide array of technical tools including SQL, JavaScript, React, Python, Tableau, and Salesforce, Joey effectively collaborates with cross-functional teams to exceed project expectations. With a Bachelor of Science in Management in IT from Cal State East Bay and additional certifications in W3Schools Fullstack Development, Google Data Analytics, Tableau, and Project Management, Joey is primed to spearhead technological advancements and foster organizational triumph in any setting.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -70,14 +69,14 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              Skills{" "}
+              Languages{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
               {" "}
-              Education{" "}
+              Frameworks{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
