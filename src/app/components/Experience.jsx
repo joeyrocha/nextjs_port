@@ -30,9 +30,9 @@ export default function Experience() {
                         </div>
 
                         <div className='box-exp'>
-                            <h4>2023 - 2024</h4>
-                            <h3> W3 Schools FullStack Bootcamp </h3>
-                            <p>Participated in a rigorous full-stack web development bootcamp to further enhance my capabilities as a software engineer. This immersive program has equipped me with a broad spectrum of skills spanning front-end to back-end development, strengthening my ability to contribute effectively to new software development projects. I am now better equipped to deliver innovative solutions and drive success in software engineering endeavors.</p>
+                            <h4>2022 - 2024</h4>
+                            <h3> Self Taught coding </h3>
+                            <p>Dedicated myself to learning full-stack web development through self-guided study and hands-on projects. This journey allowed me to build skills across front-end and back-end development, deepening my understanding of software engineering principles. Through self-initiative and persistence, I’ve gained the knowledge and confidence to deliver innovative solutions and contribute effectively to software development projects.</p>
                         </div>
 
 
@@ -46,19 +46,19 @@ export default function Experience() {
                     <div className='contents-exp'>
 
                         <div className='box-exp'>
-                            <h4>2021 - 2022</h4>
-                            <h3>Project Manager</h3>
+                            <h4>Nov.2020 - Nov.2022</h4>
+                            <h3>Business Analyst</h3>
                             <p>I conducted troubleshooting of new software through User Acceptance Testing (UAT), identifying bugs and improvements to enhance organizational understanding and user documentation. Additionally, I implemented dashboards in Salesforce to monitor project milestones and data quality, significantly improving company-wide transparency on project outcomes. I played a key role in creating and delivering technical and operational training, utilizing online learning tools to establish a department-wide understanding of tools, and developing documentation for onboarding new users and staff, emphasizing data fundamentals, processes, custom reporting, and best practices</p>
                         </div>
 
                         <div className='box-exp'>
-                            <h4>2022 - 2023</h4>
+                            <h4>Aug.2022 - Feb.2023</h4>
                             <h3>Data Solutions Specialist 2</h3>
                             <p> I designed and executed data visualizations for directors, supervisors, and employees, ensuring timely deliverables and milestone achievement. Collaborating with internal and external development teams, I focused on innovative solutions while adhering to standards and best practices, actively participating in projects to introduce new functionalities and onboard business units. Additionally, I coordinated testing efforts, developed training materials and process guides, and created Python scripts for Excel automation, streamlining data cleanup processes and task completion efficiency.</p>
                         </div>
 
                         <div className='box-exp'>
-                            <h4>2023 - 2023</h4>
+                            <h4>Feb.2023 - Nov.2023</h4>
                             <h3>Database Administrator</h3>
                             <p>As a Database Administrator at BVHPF, I have conducted thorough analyses, recommended strategic enhancements, and led the evaluation, design, and implementation of new business applications. My role involved synthesizing business intelligence, driving change management, facilitating clear communication between technical solutions and stakeholders, collaborating with vendors, and utilizing SQL scripting for data analysis to enhance process efficiencies and ensure data integrity.</p>
                         </div>
