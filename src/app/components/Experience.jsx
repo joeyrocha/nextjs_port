@@ -32,7 +32,8 @@ export default function Experience() {
                         <div className='box-exp'>
                             <h4>2022 - 2024</h4>
                             <h3> Self Taught coding </h3>
-                            <p>Dedicated myself to learning full-stack web development through self-guided study and hands-on projects. This journey allowed me to build skills across front-end and back-end development, deepening my understanding of software engineering principles. Through self-initiative and persistence, I’ve gained the knowledge and confidence to deliver innovative solutions and contribute effectively to software development projects.</p>
+                            <p>
+                            Dedicated myself to mastering data-driven web development through self-guided study and practical projects. This journey enabled me to build expertise in front-end and back-end technologies, enhancing my understanding of data workflows, system architecture, and software engineering principles. Through self-initiative and persistence, I have developed the technical skills and analytical mindset to design innovative, data-centric solutions and contribute meaningfully to complex development projects.</p>
                         </div>
                         <div className='box-exp'>
                             <h4>2025 - 2026</h4>
