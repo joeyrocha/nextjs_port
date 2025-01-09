@@ -63,6 +63,12 @@ export default function Experience() {
                             <p>As a Database Administrator at BVHPF, I have conducted thorough analyses, recommended strategic enhancements, and led the evaluation, design, and implementation of new business applications. My role involved synthesizing business intelligence, driving change management, facilitating clear communication between technical solutions and stakeholders, collaborating with vendors, and utilizing SQL scripting for data analysis to enhance process efficiencies and ensure data integrity.</p>
                         </div>
 
+                        <div className='box-exp'>
+                            <h4>Feb.2023 - Nov.2023</h4>
+                            <h3>Database & Ops Administrator</h3>
+                            <p>Database and Operations Administrator specializing in data governance, system integration, and optimizing data workflows between Salesforce and QuickBooks. I ensure data accuracy through rigorous data hygiene processes and develop advanced dashboards and reports, empowering stakeholders with actionable insights. By creating dynamic pivot tables, I streamline tracking and reconciliation of accounts receivable (AR) and accounts payable (AP). Leveraging expertise in process automation and cross-functional collaboration, I drive operational efficiency and support data-driven decision-making across the organization.</p>
+                        </div>
+
 
 
                     </div>
