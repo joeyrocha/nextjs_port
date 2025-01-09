@@ -28,10 +28,9 @@ const HeroSection = () => {
                 1000,
                 "Business Analyst",
                 1000,
-                "Data Professional",
+                "Data Guru",
                 1000,
-                "Godzilla Enthusiast",
-                1000,
+                
               ]}
               wrapper="span"
               speed={50}
