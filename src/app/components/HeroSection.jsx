@@ -24,13 +24,13 @@ const HeroSection = () => {
               sequence={[
                 "Joey Rocha",
                 1000,
-                "Software Developer",
+                "Salesforce Admin",
                 1000,
-                "Sytstem's Administrator",
+                "Business Analyst",
                 1000,
-                "Data Proffesional",
+                "Data Professional",
                 1000,
-                "Dragon Boater",
+                "Godzilla Enthusiast",
                 1000,
               ]}
               wrapper="span"
@@ -43,8 +43,11 @@ const HeroSection = () => {
           </p>
           <div>
             <Link
-              href="#contact"
+              href="https://www.linkedin.com/in/jrochaperez123/"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+              target="_blank"
+              rel="noopener noreferrer"
+              passHref
             >
               Hire Me
             </Link>

@@ -3,7 +3,7 @@ import "src/app/experience.css"
 
 export default function Experience() {
     return (
-        <div className='experience-container'>
+        <div id="experience" className='experience-container'>
             <main className='row-exp'>
                 <section className='col-exp'>
                     <header className='title-exp'>
