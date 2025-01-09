@@ -34,6 +34,11 @@ export default function Experience() {
                             <h3> Self Taught coding </h3>
                             <p>Dedicated myself to learning full-stack web development through self-guided study and hands-on projects. This journey allowed me to build skills across front-end and back-end development, deepening my understanding of software engineering principles. Through self-initiative and persistence, I’ve gained the knowledge and confidence to deliver innovative solutions and contribute effectively to software development projects.</p>
                         </div>
+                        <div className='box-exp'>
+                            <h4>2025 - 2026</h4>
+                            <h3> Masters in Business Analytics</h3>
+                            <p>Graduate student pursuing a Master’s in Analytics at CSU Sacramento, focused on advanced data analysis, statistical modeling, and machine learning. I am honing my skills in transforming complex data into actionable insights to drive strategic decision-making, with a strong emphasis on real-world applications and innovative problem-solving.</p>
+                        </div>
 
 
                     </div>
