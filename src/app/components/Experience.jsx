@@ -69,7 +69,7 @@ export default function Experience() {
                         </div>
 
                         <div className='box-exp'>
-                            <h4>Feb.2023 - Nov.2023</h4>
+                            <h4>June.2024 - current</h4>
                             <h3>Database & Ops Administrator</h3>
                             <p>Database and Operations Administrator specializing in data governance, system integration, and optimizing data workflows between Salesforce and QuickBooks. I ensure data accuracy through rigorous data hygiene processes and develop advanced dashboards and reports, empowering stakeholders with actionable insights. By creating dynamic pivot tables, I streamline tracking and reconciliation of accounts receivable (AR) and accounts payable (AP). Leveraging expertise in process automation and cross-functional collaboration, I drive operational efficiency and support data-driven decision-making across the organization.</p>
                         </div>
