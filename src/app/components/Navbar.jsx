@@ -10,12 +10,12 @@ const navLinks = [
     path: "#about",
   },
   {
-    title: "Experience",
-    path: "#experience",
+    title: "GitHub",
+    path: "https://github.com/joeyrocha",
   },
   {
-    title: "Contact",
-    path: "#contact",
+    title: "Tableau Public",
+    path: "https://public.tableau.com/app/profile/jose.rocha.perez/vizzes",
   },
 ];
 
