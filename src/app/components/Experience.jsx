@@ -53,7 +53,7 @@ export default function Experience() {
 
                         <div className='box-exp'>
                             <h4>Nov.2020 - Nov.2022</h4>
-                            <h3>Business Analyst</h3>
+                            <h3>Salesforce Admin</h3>
                             <p>I conducted troubleshooting of new software through User Acceptance Testing (UAT), identifying bugs and improvements to enhance organizational understanding and user documentation. Additionally, I implemented dashboards in Salesforce to monitor project milestones and data quality, significantly improving company-wide transparency on project outcomes. I played a key role in creating and delivering technical and operational training, utilizing online learning tools to establish a department-wide understanding of tools, and developing documentation for onboarding new users and staff, emphasizing data fundamentals, processes, custom reporting, and best practices</p>
                         </div>
 
