@@ -17,7 +17,7 @@ const navLinks = [
     path: "https://github.com/joeyrocha",
   },
   {
-    title: "Contact",
+    title: "Tableau Public",
     path: "https://public.tableau.com/app/profile/jose.rocha.perez/vizzes",
   },
 ];
