@@ -1,3 +1,6 @@
+"use client"; // This marks the component as a client-side entry point
+
+
 import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
