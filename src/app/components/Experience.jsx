@@ -53,7 +53,7 @@ export default function Experience() {
 
                         <div className='box-exp'>
                             <h4>Nov.2020 - Nov.2022</h4>
-                            <h3>Salesforce Admin</h3>
+                            <h3>Program Analyst</h3>
                             <p>I conducted troubleshooting of new software through User Acceptance Testing (UAT), identifying bugs and improvements to enhance organizational understanding and user documentation. Additionally, I implemented dashboards in Salesforce to monitor project milestones and data quality, significantly improving company-wide transparency on project outcomes. I played a key role in creating and delivering technical and operational training, utilizing online learning tools to establish a department-wide understanding of tools, and developing documentation for onboarding new users and staff, emphasizing data fundamentals, processes, custom reporting, and best practices</p>
                         </div>
 
@@ -65,7 +65,7 @@ export default function Experience() {
 
                         <div className='box-exp'>
                             <h4>Feb.2023 - Nov.2023</h4>
-                            <h3>Database Administrator</h3>
+                            <h3>Systems Analyst</h3>
                             <p>As a Database Administrator at BVHPF, I have conducted thorough analyses, recommended strategic enhancements, and led the evaluation, design, and implementation of new business applications. My role involved synthesizing business intelligence, driving change management, facilitating clear communication between technical solutions and stakeholders, collaborating with vendors, and utilizing SQL scripting for data analysis to enhance process efficiencies and ensure data integrity.</p>
                         </div>
 
