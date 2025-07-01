@@ -43,6 +43,21 @@ const TAB_DATA = [
       </ul>
     ),
   },
+    {
+    title: "Systems Administered",
+    id: "systems",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Quickbooks</li>
+        <li>BlackBaud Financial</li>
+        <li>SalesForce Cloud</li>
+        <li>SAP</li>
+        <li>MySQL</li>
+        <li>Asana</li>
+        <li>Multiple Marketing based systems</li>
+      </ul>
+    ),
+  },
 ];
 
 const AboutSection = () => {
@@ -77,7 +92,7 @@ const AboutSection = () => {
               active={tab === "education"}
             >
               {" "}
-              Frameworks{" "}
+              Libraries{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
@@ -85,6 +100,13 @@ const AboutSection = () => {
             >
               {" "}
               Certifications{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("systems")}
+              active={tab === "certifications"}
+            >
+              {" "}
+              Systems{" "}
             </TabButton>
           </div>
           <div className="mt-8">
