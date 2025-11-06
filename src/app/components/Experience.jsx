@@ -52,6 +52,12 @@ export default function Experience() {
                     <div className='contents-exp'>
                         
                         <div className='box-exp'>
+                            <h4>Tesla Motors</h4>
+                            <h3>Data Annotation Analyst</h3>
+                            <p> Annotated and validated large-scale image, text, audio, and video datasets using tools like Label Studio and internal quality platforms to train computer vision models for Tesla’s autonomous driving system, achieving a 95% accuracy benchmark. Developed detailed annotation protocols and guidelines with Word and Google Suite, and reviewed hundreds of annotated images to ensure data quality met internal standards for engineering deployment.</p>
+                        </div>
+
+                        <div className='box-exp'>
                             <h4>Climb Hire</h4>
                             <h3>CRM Data Analyst</h3>
                             <p>I conducted troubleshooting of new software through User Acceptance Testing (UAT), identifying bugs and improvements to enhance organizational understanding and user documentation. Additionally, I implemented dashboards in Salesforce to monitor project milestones and data quality, significantly improving company-wide transparency on project outcomes. I played a key role in creating and delivering technical and operational training, utilizing online learning tools to establish a department-wide understanding of tools, and developing documentation for onboarding new users and staff, emphasizing data fundamentals, processes, custom reporting, and best practices</p>
