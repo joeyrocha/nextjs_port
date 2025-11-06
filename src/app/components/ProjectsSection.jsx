@@ -31,6 +31,15 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/joeyrocha/DBT_Project_AIRBNB_DW",
     previewUrl: "/",
+  },
+  {
+    id: 4,
+    title: "DEA Zomato Analysis",
+    description: "Conducted data envelopment analysis (DEA) on Zomato delivery data in RStudio to identify efficient delivery agents. Applied data cleaning, visualization, and statistical techniques in R to deliver insights on efficiency based on customer rating as input and delivery time, age, and traffic score(converted to 1-4 scale).",
+    image: "/images/projects/Zomato.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/joeyrocha/DEA-Zomato-Analysis",
+    previewUrl: "/",
   }
 ];
 
