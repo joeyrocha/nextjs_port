@@ -50,13 +50,6 @@ export default function Experience() {
                     </header>
 
                     <div className='contents-exp'>
-
-                        <div className='box-exp'>
-                            <h4>Tesla Motors</h4>
-                            <h3>Data Anotation Analyst</h3>
-                            <p>Annotated image datasets using Label Studio to train computer vision models for Tesla's autonomous driving system, achieving 95% accuracy benchmark. Reviewed and validated annotated text, audio, video, and image datasets using internal tools to ensure high-quality training data for computer vision models. Reviewed hundreds of annotated images to inspect the quality of data and that it meets internal standards acceptable to pass to the engineering teams. Developed annotation protocols and guidelines using tools like word and Google Suite for large-scale image, text, audio and video data annotation projects.</p>
-                        </div>
-                        
                         
                         <div className='box-exp'>
                             <h4>Climb Hire</h4>
