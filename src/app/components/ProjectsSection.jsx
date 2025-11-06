@@ -14,7 +14,15 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
-
+  {
+    id: 2,
+    title: "CourseraDataEngineerCapstone",
+    description: "Completed the IBM Data Engineering Capstone Project on Coursera, designing and implementing an end-to-end data pipeline—including data ingestion, warehousing, ETL processing, and analytics dashboarding—using SQL, Python",
+    image: "/images/projects/Portfolio.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/joeyrocha/courseraDataEngineerCapstone",
+    previewUrl: "https://coursera.org/share/d34c3d8f9c902420e1820011f2686dc3",
+  }
 ];
 
 const ProjectsSection = () => {
