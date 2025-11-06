@@ -22,6 +22,15 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/joeyrocha/courseraDataEngineerCapstone",
     previewUrl: "https://coursera.org/share/d34c3d8f9c902420e1820011f2686dc3",
+  },
+  {
+    id: 3,
+    title: "Analytics Engineering with Airbnb",
+    description: "Simulated the role of an Analytics Engineer at Airbnb by building an end-to-end data pipeline using Snowflake, dbt, and Preset. Cleaned, transformed, and tested real Airbnb Berlin data, implemented data quality checks, managed model dependencies, and delivered a BI dashboard with clear documentation and automation.",
+    image: "/images/projects/DBT.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/joeyrocha/DBT_Project_AIRBNB_DW",
+    previewUrl: "/",
   }
 ];
 
