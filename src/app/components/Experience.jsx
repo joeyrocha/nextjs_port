@@ -52,26 +52,33 @@ export default function Experience() {
                     <div className='contents-exp'>
 
                         <div className='box-exp'>
+                            <h4>June.2020 - March.2021</h4>
+                            <h3>Data Anotation</h3>
+                            <p>Annotated image datasets using Label Studio to train computer vision models for Tesla's autonomous driving system, achieving 95% accuracy benchmark. Reviewed and validated annotated text, audio, video, and image datasets using internal tools to ensure high-quality training data for computer vision models. Reviewed hundreds of annotated images to inspect the quality of data and that it meets internal standards acceptable to pass to the engineering teams. Developed annotation protocols and guidelines using tools like word and Google Suite for large-scale image, text, audio and video data annotation projects.</p>
+                        </div>
+                        
+                        
+                        <div className='box-exp'>
                             <h4>Nov.2020 - Nov.2022</h4>
-                            <h3>Program Analyst</h3>
+                            <h3>Data Analyst</h3>
                             <p>I conducted troubleshooting of new software through User Acceptance Testing (UAT), identifying bugs and improvements to enhance organizational understanding and user documentation. Additionally, I implemented dashboards in Salesforce to monitor project milestones and data quality, significantly improving company-wide transparency on project outcomes. I played a key role in creating and delivering technical and operational training, utilizing online learning tools to establish a department-wide understanding of tools, and developing documentation for onboarding new users and staff, emphasizing data fundamentals, processes, custom reporting, and best practices</p>
                         </div>
 
                         <div className='box-exp'>
                             <h4>Aug.2022 - Feb.2023</h4>
-                            <h3>Data Solutions Specialist 2</h3>
+                            <h3>IT Business Analyst</h3>
                             <p> I designed and executed data visualizations for directors, supervisors, and employees, ensuring timely deliverables and milestone achievement. Collaborating with internal and external development teams, I focused on innovative solutions while adhering to standards and best practices, actively participating in projects to introduce new functionalities and onboard business units. Additionally, I coordinated testing efforts, developed training materials and process guides, and created Python scripts for Excel automation, streamlining data cleanup processes and task completion efficiency.</p>
                         </div>
 
                         <div className='box-exp'>
                             <h4>Feb.2023 - Nov.2023</h4>
-                            <h3>Systems Analyst</h3>
+                            <h3>Database Administrator</h3>
                             <p>As a Database Administrator at BVHPF, I have conducted thorough analyses, recommended strategic enhancements, and led the evaluation, design, and implementation of new business applications. My role involved synthesizing business intelligence, driving change management, facilitating clear communication between technical solutions and stakeholders, collaborating with vendors, and utilizing SQL scripting for data analysis to enhance process efficiencies and ensure data integrity.</p>
                         </div>
 
                         <div className='box-exp'>
                             <h4>June.2024 - current</h4>
-                            <h3>Database & Ops Administrator</h3>
+                            <h3>Database & Analytics Administrator</h3>
                             <p>Database and Operations Administrator specializing in data governance, system integration, and optimizing data workflows between Salesforce and QuickBooks. I ensure data accuracy through rigorous data hygiene processes and develop advanced dashboards and reports, empowering stakeholders with actionable insights. By creating dynamic pivot tables, I streamline tracking and reconciliation of accounts receivable (AR) and accounts payable (AP). Leveraging expertise in process automation and cross-functional collaboration, I drive operational efficiency and support data-driven decision-making across the organization.</p>
                         </div>
 
