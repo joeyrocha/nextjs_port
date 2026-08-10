@@ -2,27 +2,100 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --muted: 210 30% 92%;
+    --muted-foreground: 215 16% 40%;
+    --border: 214 25% 85%;
+    --input: 214 25% 85%;
+    --ring: 189 80% 38%;
+    --primary: 189 80% 34%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 32 85% 42%;
+    --secondary-foreground: 210 40% 98%;
+    --accent: 210 30% 92%;
+    --accent-foreground: 222 47% 11%;
+    --terminal-amber: 32 85% 38%;
+    --grid-line: 214 25% 85%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222 44% 5%;
+    --foreground: 210 40% 96%;
+    --card: 222 38% 8%;
+    --card-foreground: 210 40% 96%;
+    --muted: 222 28% 14%;
+    --muted-foreground: 215 20% 65%;
+    --border: 222 25% 19%;
+    --input: 222 25% 19%;
+    --ring: 189 94% 55%;
+    --primary: 189 94% 55%;
+    --primary-foreground: 222 47% 6%;
+    --secondary: 38 92% 55%;
+    --secondary-foreground: 222 47% 6%;
+    --accent: 222 28% 14%;
+    --accent-foreground: 210 40% 96%;
+    --terminal-amber: 38 92% 55%;
+    --grid-line: 222 25% 19%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  html.light {
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  ::selection {
+    @apply bg-primary/30 text-foreground;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
+@layer components {
+  .terminal-texture {
+    background-image: theme("backgroundImage.grid-pattern");
+    background-size: theme("backgroundSize.grid");
+  }
+
+  .terminal-scanlines {
+    background-image: theme("backgroundImage.scanlines");
+  }
+
+  .prompt::before {
+    content: ">";
+    @apply mr-2 text-primary;
+  }
+}
