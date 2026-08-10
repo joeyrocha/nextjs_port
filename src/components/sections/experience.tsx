@@ -9,7 +9,7 @@ export function Experience() {
       className="mx-auto max-w-4xl scroll-mt-24 px-6 py-20"
     >
       <ScrollReveal>
-        <SectionLabel index="04">experience</SectionLabel>
+        <SectionLabel index="02">experience</SectionLabel>
         <h2 className="mb-10 text-3xl font-bold tracking-tight text-foreground">
           Experience
         </h2>

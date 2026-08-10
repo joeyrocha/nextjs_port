@@ -17,9 +17,9 @@ export default function Home() {
       <main id="main-content">
         <Hero />
         <About />
+        <Experience />
         <Skills />
         <Projects />
-        <Experience />
         <Education />
         <Certifications />
         <Community />

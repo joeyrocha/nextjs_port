@@ -10,7 +10,7 @@ export function Projects() {
       className="mx-auto max-w-6xl scroll-mt-24 px-6 py-20"
     >
       <ScrollReveal>
-        <SectionLabel index="03">projects</SectionLabel>
+        <SectionLabel index="04">projects</SectionLabel>
         <h2 className="mb-3 text-3xl font-bold tracking-tight text-foreground">
           Projects
         </h2>
