@@ -1,6 +1,8 @@
 import { SectionLabel } from "@/components/section-label";
 import { ScrollReveal } from "@/components/scroll-reveal";
+import { ImageCarousel } from "@/components/image-carousel";
 import { community } from "@/data/community";
+import { volunteerPhotos } from "@/data/volunteering";
 
 export function Community() {
   return (
@@ -13,6 +15,10 @@ export function Community() {
         <h2 className="mb-8 text-3xl font-bold tracking-tight text-foreground">
           Community &amp; Involvement
         </h2>
+      </ScrollReveal>
+
+      <ScrollReveal className="mb-10">
+        <ImageCarousel photos={volunteerPhotos} />
       </ScrollReveal>
 
       <ul className="divide-y divide-border rounded-lg border border-border bg-card/40">
